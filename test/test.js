@@ -32,6 +32,11 @@ describe('images api', () =>{
 		url: 'some url' 
 	};
 
+	const pizza = {
+		title: 'pizza',
+		category: 'food', 
+		url: 'another url' 
+	};
 
 // POST an image
 	it( 'posts images', done => {
@@ -47,6 +52,7 @@ describe('images api', () =>{
 			.catch( done );
 	});
 
+
 // use returned id to GET same image
 	it( 'get images by id', done => {
 		request
@@ -58,5 +64,45 @@ describe('images api', () =>{
 		})
 			.catch( done );
 	});
+
+
+    // POST another image
+	it( 'posts additional images', done => {
+		request
+            .post( '/images' )
+            .send(pizza)
+		.then( res => {
+			assert.ok( res.body._id );
+			pizza.__v = 0;
+			pizza._id = res.body._id;
+			done();
+		})
+			.catch( done );
+	});
+
+// get all
+	it( 'gets all images', done => {
+		request
+            .get( '/images')
+		.then( res => {
+			assert.equal( res.body.length, 2);
+			done();
+		})
+			.catch( done );
+	})
+
+// get food
+	it( 'gets images by category', done => {
+		request
+            .get( '/images?category=food')
+		.then( res => {
+            // assert that title, description, category, and url are equal to orignally supplied data.
+			assert.equal( res.body.length, 1);
+			done();
+		})
+			.catch( done );
+	});
+
+
 
 });
