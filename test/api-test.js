@@ -3,8 +3,8 @@ const chaiHttp = require('chai-http');
 const assert = chai.assert;
 chai.use(chaiHttp);
 
-const connection = require('./lib/setup-mongoose');
-const app = require('./lib/app');
+const connection = require('../lib/setup-mongoose');
+const app = require('../lib/app');
 
 describe('image request', () => {
 
@@ -22,7 +22,7 @@ describe('image request', () => {
     request
       .post('/api/images')
       .send(image)
-      .then(image._id = res._id; done();)
+      .then(res => {image._id = res.body._id; done();})
       .get('/api/images')
       .then(res => {
         assert.deepEqual(res.body, image);
