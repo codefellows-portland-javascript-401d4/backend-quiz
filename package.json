@@ -4,7 +4,7 @@
   "description": "quiz for 401 on 11/28",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
