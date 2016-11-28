@@ -1,0 +1,34 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+  "description": "Nov-28 quiz",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanPickard/backend-quiz.git"
+  },
+  "keywords": [
+    "quiz"
+  ],
+  "author": "Nathan Pickard <nathan.pickard87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanPickard/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/NathanPickard/backend-quiz#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "body-parser": "^1.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "3.0.0",
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0"    
+  }
+}
