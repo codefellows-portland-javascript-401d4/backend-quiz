@@ -12,6 +12,7 @@ Create an express/mongo server for simple image list management
     * NodeJS site
     * Any code that you've written (solo or pair), but you must retype
 * You may install npm packages of your choosing
+* Use general best practices the make sense
 * You may ignore the presense or absense of `__v` mongoose property on 
 any data format requirements
 * There is a testing requirement (after the API section)
