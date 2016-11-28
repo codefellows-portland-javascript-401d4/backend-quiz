@@ -23,13 +23,17 @@ describe('Image router', () => {
     request.post('/image/post')
       .send(newImage)
       .then(res => {
-        console.log('test got back data', res);
+        assert.equal(res.body, newImage);
       })
       .catch(done);
   });
 
   it('Gets an image by the id', done => {
-
+    request.get('/image/' + id)
+      .then(res => {
+        assert.equal(res.body, newImage);
+      })
+      .catch(done);
   });
 
   it('Gets an image by category query string', done => {
