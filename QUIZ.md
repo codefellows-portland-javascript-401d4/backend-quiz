@@ -17,6 +17,7 @@ any data format requirements
 * There is a testing requirement (after the API section)
 * Work through the API requirements in order, you may not finish everything
 in alotted time. Submit what you have. 
+* You may, if you think prudent, simplify your architecture from the full style we learned in class
 * You have 90 minutes to complete
 
 ## API Requirements
