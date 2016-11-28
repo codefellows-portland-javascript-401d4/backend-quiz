@@ -1,7 +1,7 @@
 /** Created by Gloria Anholt on 11/28/16. **/
 
 const http = require('http');
-const app = require('./app');
+const app = require('./lib/app');
 const port = process.env.PORT || 3000;
 
 const server = http.createServer(app);
