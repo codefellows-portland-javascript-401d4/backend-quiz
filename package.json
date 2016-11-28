@@ -2,7 +2,7 @@
   "name": "backend-quiz",
   "version": "1.0.0",
   "description": "quiz for 401 on 11/28",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test"
   },
