@@ -7,14 +7,18 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "eslint **/*.js",
+    "pretest": "npm run lint",
     "test": "mocha",
+    "build": "npm install",
+    "watch": "npm run test -- -w",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caraldi/backend-quiz.git"
   },
-  "author": "",
+  "author": "Caitlin Araldi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caraldi/backend-quiz/issues"
