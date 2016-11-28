@@ -1,0 +1,32 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+  "description": "Erica Hendricks",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "\"mocha\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhendricks/backend-quiz.git"
+  },
+  "author": "Erica Hendricks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhendricks/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/elhendricks/backend-quiz#readme",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0",
+    "morgan": "^1.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+  }
+}
