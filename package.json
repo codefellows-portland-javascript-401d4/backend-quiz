@@ -1,0 +1,25 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+  "description": "Quiz for code fellows by AJ Reel",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waxhoya/backend-quiz.git"
+  },
+  "author": "aj REEL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Waxhoya/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/Waxhoya/backend-quiz#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "qs": "^6.3.0"
+  }
+}
