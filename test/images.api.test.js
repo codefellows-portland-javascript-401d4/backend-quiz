@@ -45,4 +45,16 @@ describe ('images API E2E testing', () => {
       });
   });
 
+  let test_id;
+
+  it ('POST /images to database', (done) => {
+    request
+      .post('/images')
+      .send({ title: 'Attack Cat', category: 'animals', url: 'www.attackcat.com' })
+      .then((res) => {
+        test_id = res.body._id;
+        done();
+      })
+      .catch(done);
+  });
 });
