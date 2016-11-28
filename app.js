@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const errHandle = require('./errHandle');
 
 const bodyParser = require('body-parser').json();
 
@@ -21,5 +22,8 @@ app.use('/images', images);
 app.get('*', function(req, res) {
   res.sendFile(indexHtml);
 });
+
+//error handling
+app.use(errHandle);
 
 module.exports = app;
