@@ -13,11 +13,11 @@ Create an express/mongo server for simple image list management
     * Any code that you've written (solo or pair), but you must retype
 * You may install npm packages of your choosing
 * Use general best practices the make sense
-* You may ignore the presense or absense of `__v` mongoose property on 
+* You may ignore the presense or absense of `__v` mongoose property on
 any data format requirements
 * There is a testing requirement (after the API section)
 * Work through the API requirements in order, you may not finish everything
-in alotted time. Submit what you have. 
+in alotted time. Submit what you have.
 * You may, if you think prudent, simplify your architecture from the full style we learned in class
 * You have 90 minutes to complete
 
@@ -32,7 +32,7 @@ POST to `/images`:
     title: <title>,
     description: <description>,
     category: <animals|food|places>,
-    url: <url> 
+    url: <url>
 }
 ```
 
@@ -63,12 +63,12 @@ GET to `/images`:
 GET to `/images/:id`:
 
 ```
-{ 
-    _id: "123abc", 
-    title: "cute kitten at table", 
+{
+    _id: "123abc",
+    title: "cute kitten at table",
     category: "animals",
     description: "adorable kitten doing lunch",
-    url: "http://image.png" 
+    url: "http://image.png"
 }
 ```
 
