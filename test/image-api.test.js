@@ -1,6 +1,6 @@
 const chaiHttp = require('chai-http');
 const chai = require('chai');
-// const expect = chai.expect;
+const expect = chai.expect;
 chai.use(chaiHttp);
 
 const connection = require('../lib/setup-mongoose');
@@ -15,4 +15,20 @@ describe('Image', () => {
 
   const request = chai.request(app);
   })
+
+let image = {
+  title: "cat",
+  description: "cat picture",
+  category: "animals",
+  url: "catpicture"
+}
+
+it('post', done => {
+  request
+    .post('/api/image')
+    .send(image)
+    .then(res => {
+      const image = res.body;
+      expect(image._id).to.be.ok;
+    })
 })
