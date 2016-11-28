@@ -5,7 +5,7 @@ Create an express/mongo server for simple image list management
 ## Rules
 
 * You must complete by on your own
-* Create your own repo
+* Fork this repo and submit as usual
 * You may use the following resources:
     * ExpressJS site
     * Mongoose site
