@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/elhendricks/backend-quiz#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
     "eslint": "^3.11.1",
     "mocha": "^3.2.0",
     "morgan": "^1.7.0"
