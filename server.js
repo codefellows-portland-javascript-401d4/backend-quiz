@@ -1,4 +1,4 @@
-/*** Created by Gloria Anholt on 11/28/16. */
+/** Created by Gloria Anholt on 11/28/16. **/
 
 const http = require('http');
 const app = require('./app');
