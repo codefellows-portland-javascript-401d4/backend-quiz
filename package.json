@@ -4,7 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "test:watch": "npm test -w",
+    "lint": "eslint .",
+    "start": "npm test && node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
+    "eslint": "^3.11.1",
     "mocha": "^3.2.0"
   }
 }
