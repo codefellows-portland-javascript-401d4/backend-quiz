@@ -50,9 +50,21 @@ describe ('images API E2E testing', () => {
   it ('POST /images to database', (done) => {
     request
       .post('/images')
-      .send({ title: 'Attack Cat', category: 'animals', url: 'www.attackcat.com' })
+      .send(test_image)
       .then((res) => {
         test_id = res.body._id;
+        test_image['_id'] = test_id;
+        test_image['__v'] = 0;
+        done();
+      })
+      .catch(done);
+  });
+
+  it ('GET /images/:id the image just POSTed', (done) => {
+    request
+      .get(`/images/${test_id}`)
+      .then((res) => {
+        expect(res.body).to.deep.equal(test_image);
         done();
       })
       .catch(done);
