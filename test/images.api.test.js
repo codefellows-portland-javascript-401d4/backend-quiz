@@ -45,7 +45,7 @@ describe ('images API E2E testing', () => {
       });
   });
 
-  let test_id;
+  let test_id; // eslint-disable-line no-unused-vars
 
   it ('POST /images to database', (done) => {
     request
