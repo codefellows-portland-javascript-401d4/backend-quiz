@@ -1,0 +1,33 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+  "description": "class quiz",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPGothro/backend-quiz.git"
+  },
+  "author": "JP Gothro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPGothro/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/JPGothro/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "morgan": "^1.7.0",
+    "node": "0.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0"
+  }
+}
