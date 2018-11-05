@@ -1,11 +1,26 @@
 {
     "env": {
+<<<<<<< HEAD
+=======
+        "browser": true,
+>>>>>>> eadaf8e5f3c8e137ae848b44b60f8149ccd8fccd
         "es6": true,
         "node": true,
         "mocha": true
     },
     "extends": "eslint:recommended",
+<<<<<<< HEAD
     "rules": {
+=======
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+>>>>>>> eadaf8e5f3c8e137ae848b44b60f8149ccd8fccd
         "linebreak-style": [
             "error",
             "unix"
@@ -18,7 +33,13 @@
             "error",
             "always"
         ],
+<<<<<<< HEAD
         "no-console": 0,
         "no-unused-vars": 0
     }
 }
+=======
+        "no-console": "off"
+    }
+}
+>>>>>>> eadaf8e5f3c8e137ae848b44b60f8149ccd8fccd
