@@ -1,0 +1,42 @@
+{
+    "env": {
+<<<<<<< HEAD
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": 0,
+        "no-unused-vars": 0
+    }
+}
+=======
+        "browser": true,
+        "es6": true,
+        "mocha": true,
+        "node": true
+    },
+    "rules": {
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn"
+    }
+}
+>>>>>>> 594e2d8516cd3ee6018e864feca43317d1380db9
