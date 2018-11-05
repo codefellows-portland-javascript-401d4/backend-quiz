@@ -1,0 +1,59 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "test:watch": "npm test -w",
+    "lint": "eslint .",
+    "start": "npm test && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsmeds/backend-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsmeds/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/nsmeds/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+=======
+  "description": "class quiz",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPGothro/backend-quiz.git"
+  },
+  "author": "JP Gothro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPGothro/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/JPGothro/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "morgan": "^1.7.0",
+    "node": "0.0.0"
+>>>>>>> eef839e7ef70d03b76e21694f172e250725bf2e6
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0"
+  }
+}
