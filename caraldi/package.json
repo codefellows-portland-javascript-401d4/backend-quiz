@@ -1,0 +1,66 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+<<<<<<< HEAD
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "test:watch": "npm test -w",
+    "lint": "eslint .",
+    "start": "npm test && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsmeds/backend-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsmeds/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/nsmeds/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+  },
+=======
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "build": "npm install",
+    "watch": "npm run test -- -w",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caraldi/backend-quiz.git"
+  },
+  "author": "Caitlin Araldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caraldi/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/caraldi/backend-quiz#readme",
+>>>>>>> 579556a064ee8ff39aac05d6944ec51cbb65f690
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0"
+<<<<<<< HEAD
+=======
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+>>>>>>> 579556a064ee8ff39aac05d6944ec51cbb65f690
+  }
+}
