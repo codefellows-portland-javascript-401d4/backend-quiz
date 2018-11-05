@@ -1,0 +1,47 @@
+{
+    "env": {
+<<<<<<< HEAD
+=======
+        "browser": true,
+>>>>>>> 37ca77b7cc522b2c93e985df3e042e1a5de582ea
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+<<<<<<< HEAD
+    "rules": {
+=======
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            2, "tab"
+        ],
+        "no-mixed-spaces-and-tabs": [
+            2, "smart-tabs"
+        ],
+>>>>>>> 37ca77b7cc522b2c93e985df3e042e1a5de582ea
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+<<<<<<< HEAD
+        "no-console": 0,
+        "no-unused-vars": 0
+    }
+}
+=======
+        "no-console": "off"
+        }
+    }
+>>>>>>> 37ca77b7cc522b2c93e985df3e042e1a5de582ea
