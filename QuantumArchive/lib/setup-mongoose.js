@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+const mongoose = require('mongoose');
+const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/imageserver';
+
+mongoose.Promise = Promise;
+mongoose.connect(dbURI);
+
+mongoose.connection.on('connected', () => {
+    console.log('Mongoose default connection open to ' + dbURI);
+});
+
+mongoose.connection.on('error', err => {
+    console.log('Mongoose default connection error: ' + err);
+});
+
+mongoose.connection.on('disconnected', () => {
+    console.log('Mongoose default connection disconnected');
+});
+
+process.on('SIGINT', () => {
+    mongoose.connection.close( () => {
+        console.log('Mongoose default connection disconnected through app termination');
+=======
+const mongoose = require( 'mongoose' );
+
+// we need a URI that points to our database
+const dbURI = process.env.MONGODB_URI || 'mongodb://QuantumArchive:123whatever@ds111798.mlab.com:11798/picturesurl' || 'mongodb://localhost/picturesurl'; 
+
+mongoose.Promise = Promise;
+mongoose.connect( dbURI );
+
+// CONNECTION EVENTS
+// When successfully connected
+mongoose.connection.on('connected', function () {
+    console.log( 'Mongoose default connection open to ' + dbURI );
+});
+
+// If the connection throws an error
+mongoose.connection.on('error',function (err) {
+    console.log( 'Mongoose default connection error: ' + err );
+});
+
+// When the connection is disconnected
+mongoose.connection.on('disconnected', function () {
+    console.log( 'Mongoose default connection disconnected' );
+});
+
+// If the Node process ends, close the Mongoose connection
+process.on('SIGINT', function() {
+    mongoose.connection.close(function () {
+        console.log( 'Mongoose default connection disconnected through app termination' );
+>>>>>>> 2b788263898ad56d5c57ac57071f20578e82ffdf
+        process.exit(0);
+    });
+});
+
+module.exports = mongoose.connection;
