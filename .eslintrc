@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "env": {
         "es6": true,
@@ -22,3 +23,47 @@
         "no-unused-vars": 0
     }
 }
+=======
+ {
+ "globals": {
+   "describe": false,
+   "it": false,
+   "beforeEach": false,
+   "afterEach": false,
+   "before": false,
+   "after": false
+ },
+  "settings": {
+    "ecmascript": 6
+ },
+ "ecmaFeatures": {
+   "modules": true
+ },
+ "env": {
+   "browser": true,
+   "jquery": true,
+   "node": true
+ },
+ "parserOptions":{
+   "ecmaVersion": 6,
+   "sourceType": "module",
+   "ecmaFeatures": {"jsx": true}
+ },
+ "rules": {
+   "semi": 1,
+   "strict": 0,
+   "indent": [2, 4],
+   "eqeqeq": 1,
+   "quotes": [1, "single"],
+   "no-multi-spaces": [1, {
+     "exceptions": {
+       "VariableDeclarator": true,
+       "FunctionExpression": true
+     }
+   }],
+   "key-spacing": [0, {"align": "value"}],
+   "no-underscore-dangle": 0,
+   "no-unused-vars": 1
+ }
+}
+>>>>>>> 2b788263898ad56d5c57ac57071f20578e82ffdf
