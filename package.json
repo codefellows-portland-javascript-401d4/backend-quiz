@@ -1,6 +1,7 @@
 {
   "name": "backend-quiz",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -24,6 +25,29 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.7.0"
+=======
+  "description": "quiz for 401 on 11/28",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpats67/backend-quiz.git"
+  },
+  "author": "hpats67",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hpats67/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/hpats67/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "morgan": "^1.7.0"
+>>>>>>> 063165c9b04e651970de07b9d0597c5377db308f
   },
   "devDependencies": {
     "chai": "^3.5.0",
