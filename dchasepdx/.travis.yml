@@ -1,0 +1,21 @@
+language: node_js
+<<<<<<< HEAD
+node_js: 
+  - "6"
+=======
+
+node_js:
+  - 6
+
+>>>>>>> 4dada106c578a0c8e8db797125f5dda814fd400d
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+      - mongodb-3.2-precise
+
+    packages:
+      - g++-4.8
+      - mongodb-org-server

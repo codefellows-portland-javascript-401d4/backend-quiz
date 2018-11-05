@@ -1,0 +1,63 @@
+{
+  "name": "backend-quiz",
+  "version": "1.0.0",
+  "description": "",
+<<<<<<< HEAD
+  "main": "server.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "test:watch": "npm test -w",
+    "lint": "eslint .",
+    "start": "npm test && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsmeds/backend-quiz.git"
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:run",
+    "lint": "eslint .",
+    "test:run": "MONGODB_URI=mongodb://localhost/img-test mocha",
+    "prestest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchasepdx/backend-quiz.git"
+>>>>>>> 4dada106c578a0c8e8db797125f5dda814fd400d
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+<<<<<<< HEAD
+    "url": "https://github.com/nsmeds/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/nsmeds/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+  },
+=======
+    "url": "https://github.com/dchasepdx/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/dchasepdx/backend-quiz#readme",
+>>>>>>> 4dada106c578a0c8e8db797125f5dda814fd400d
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.11.1",
+<<<<<<< HEAD
+    "mocha": "^3.2.0"
+=======
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+>>>>>>> 4dada106c578a0c8e8db797125f5dda814fd400d
+  }
+}
