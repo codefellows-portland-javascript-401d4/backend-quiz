@@ -1,0 +1,50 @@
+{
+    "env": {
+<<<<<<< HEAD
+=======
+        "browser": true,
+>>>>>>> 60f848b30a79db6bfe6ef5772cacc36b3192206b
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+<<<<<<< HEAD
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "unix"
+=======
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+        "describe": false,
+        "it": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "before": false,
+        "after": false
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+>>>>>>> 60f848b30a79db6bfe6ef5772cacc36b3192206b
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+<<<<<<< HEAD
+        "no-console": 0,
+        "no-unused-vars": 0
+=======
+        "no-console": "off"
+>>>>>>> 60f848b30a79db6bfe6ef5772cacc36b3192206b
+    }
+}
