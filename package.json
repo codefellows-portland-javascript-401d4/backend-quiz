@@ -2,6 +2,7 @@
   "name": "backend-quiz",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "server.js",
   "scripts": {
     "pretest": "npm run lint",
@@ -13,13 +14,30 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nsmeds/backend-quiz.git"
+=======
+  "main": "app.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viper86/backend-quiz.git"
+>>>>>>> 91615f0c8506f5279326a1342e18458adba07de3
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/nsmeds/backend-quiz/issues"
   },
   "homepage": "https://github.com/nsmeds/backend-quiz#readme",
+=======
+    "url": "https://github.com/viper86/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/viper86/backend-quiz#readme",
+>>>>>>> 91615f0c8506f5279326a1342e18458adba07de3
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
@@ -29,6 +47,11 @@
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
     "eslint": "^3.11.1",
+<<<<<<< HEAD
     "mocha": "^3.2.0"
+=======
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+>>>>>>> 91615f0c8506f5279326a1342e18458adba07de3
   }
 }
