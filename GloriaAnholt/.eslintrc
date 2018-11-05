@@ -1,0 +1,67 @@
+{
+<<<<<<< HEAD
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": 0,
+        "no-unused-vars": 0
+    }
+=======
+   "settings": {
+     "ecmascript": 6
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "describe": false,
+    "it": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "before": false,
+    "after": false
+  },
+  "parserOptions": {
+    "emcaVersion": 6
+  },
+  // "extends": "eslint:recommended",
+  "rules": {
+    "no-console": 0,
+    "semi": 1,
+    "strict": 0,
+    "indent": [2, 2],
+    "eqeqeq": 1,
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true,
+        "FunctionExpression": true
+      }
+    }],
+    "key-spacing": [0, {"align": "value"}],
+    "no-underscore-dangle": 0
+  }
+>>>>>>> 0cf61ef1f879d1e77a0fa83f8ae62618bdaddc29
+}
