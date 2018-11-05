@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
 .env
 test/.env.test
 sandbox
+=======
+DS_Store
+node_modules
+.vscode
+npm-debug.log
+>>>>>>> eef839e7ef70d03b76e21694f172e250725bf2e6
