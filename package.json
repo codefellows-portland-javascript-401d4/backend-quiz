@@ -1,6 +1,7 @@
 {
   "name": "backend-quiz",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -22,6 +23,33 @@
   "homepage": "https://github.com/nsmeds/backend-quiz#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+=======
+  "description": "backend quiz",
+  "main": "server.js",
+  "scripts": {
+    "lint":"eslint .",
+    "pretest":"npm run lint",
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txtincorporated/backend-quiz.git"
+  },
+  "keywords": [
+    "backend",
+    "quiz"
+  ],
+  "author": "Nathan P. Keene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txtincorporated/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/txtincorporated/backend-quiz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+>>>>>>> 5cff8fdbfbfa14c72106a155fd8697d186c19be4
     "express": "^4.14.0",
     "mongoose": "^4.7.0"
   },
