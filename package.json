@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "pretest": "npm run lint",
     "test": "mocha",
     "test:watch": "npm test -w",
@@ -20,6 +21,24 @@
     "url": "https://github.com/nsmeds/backend-quiz/issues"
   },
   "homepage": "https://github.com/nsmeds/backend-quiz#readme",
+=======
+    "lint": "eslint **/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "watch": "npm run test -- -w",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjfreem1/backend-quiz.git"
+  },
+  "author": "mjfreem1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjfreem1/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/mjfreem1/backend-quiz#readme",
+>>>>>>> 3298953f6afb3ff3f27fbfe14f9229985dfb86f2
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",

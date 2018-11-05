@@ -1,5 +1,10 @@
 node_modules
+<<<<<<< HEAD
 .DS_Store
 .env
 test/.env.test
 sandbox
+=======
+LAB.md
+QUIZ.md
+>>>>>>> 3298953f6afb3ff3f27fbfe14f9229985dfb86f2
