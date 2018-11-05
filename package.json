@@ -1,5 +1,6 @@
 {
   "name": "backend-quiz",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -25,10 +26,43 @@
     "express": "^4.14.0",
     "mongoose": "^4.7.0"
   },
+=======
+  "version": "0.1.0",
+  "description": "An Express/Mongo backend for simple image list management.",
+  "main": "server.js",
+  "scripts": {
+    "pretest": "eslint *.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GloriaAnholt/backend-quiz.git"
+  },
+  "keywords": [
+    "Express",
+    "Mongo",
+    "Image"
+  ],
+  "author": "Gloria Anholt <gloriaanholt@gmail.com> (http://www.GloriaAnholt.com)",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/GloriaAnholt/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/GloriaAnholt/backend-quiz#readme",
+>>>>>>> 0cf61ef1f879d1e77a0fa83f8ae62618bdaddc29
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
     "eslint": "^3.11.1",
     "mocha": "^3.2.0"
+<<<<<<< HEAD
+=======
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.7.0"
+>>>>>>> 0cf61ef1f879d1e77a0fa83f8ae62618bdaddc29
   }
 }
