@@ -1,11 +1,16 @@
 {
     "env": {
+<<<<<<< HEAD
+=======
+        "browser": true,
+>>>>>>> 30116cae9809cbd298750306e8a6010388644124
         "es6": true,
         "node": true,
         "mocha": true
     },
     "extends": "eslint:recommended",
     "rules": {
+<<<<<<< HEAD
         "linebreak-style": [
             "error",
             "unix"
@@ -13,12 +18,25 @@
         "quotes": [
             "error",
             "single"
+=======
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+>>>>>>> 30116cae9809cbd298750306e8a6010388644124
         ],
         "semi": [
             "error",
             "always"
         ],
+<<<<<<< HEAD
         "no-console": 0,
         "no-unused-vars": 0
+=======
+        "no-console": "off"
+>>>>>>> 30116cae9809cbd298750306e8a6010388644124
     }
 }
