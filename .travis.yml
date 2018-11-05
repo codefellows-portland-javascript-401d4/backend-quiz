@@ -1,6 +1,13 @@
 language: node_js
+<<<<<<< HEAD
 node_js: 
   - "6"
+=======
+
+node_js:
+  - 6
+
+>>>>>>> 579556a064ee8ff39aac05d6944ec51cbb65f690
 env:
   - CXX=g++-4.8
 addons:
@@ -11,4 +18,9 @@ addons:
 
     packages:
       - g++-4.8
+<<<<<<< HEAD
       - mongodb-org-server
+=======
+      - mongodb-org-server
+      
+>>>>>>> 579556a064ee8ff39aac05d6944ec51cbb65f690

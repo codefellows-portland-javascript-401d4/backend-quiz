@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "env": {
         "es6": true,
         "node": true,
@@ -21,4 +22,19 @@
         "no-console": 0,
         "no-unused-vars": 0
     }
+=======
+  "rules": {
+    "indent": ["error", 4],
+    "quotes": ["error", "single"],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "no-console": "off" 
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended"
+>>>>>>> 579556a064ee8ff39aac05d6944ec51cbb65f690
 }
