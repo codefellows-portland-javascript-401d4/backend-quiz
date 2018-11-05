@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
 .env
 test/.env.test
 sandbox
+=======
+node_modules
+>>>>>>> 60f848b30a79db6bfe6ef5772cacc36b3192206b
