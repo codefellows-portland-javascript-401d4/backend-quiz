@@ -1,6 +1,13 @@
 language: node_js
+<<<<<<< HEAD
 node_js: 
   - "6"
+=======
+
+node_js:
+  - 6
+
+>>>>>>> 53b5732e839980b009c1f9e78e186ed0a00f9e12
 env:
   - CXX=g++-4.8
 addons:

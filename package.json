@@ -2,6 +2,7 @@
   "name": "backend-quiz",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "server.js",
   "scripts": {
     "pretest": "npm run lint",
@@ -13,13 +14,32 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nsmeds/backend-quiz.git"
+=======
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "MONGODB_URI=mongodb://localhost/img-test mocha",
+    "test:run": "mocha",
+    "test:watch": "npm run test:run -- -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andybeers/backend-quiz.git"
+>>>>>>> 53b5732e839980b009c1f9e78e186ed0a00f9e12
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/nsmeds/backend-quiz/issues"
   },
   "homepage": "https://github.com/nsmeds/backend-quiz#readme",
+=======
+    "url": "https://github.com/andybeers/backend-quiz/issues"
+  },
+  "homepage": "https://github.com/andybeers/backend-quiz#readme",
+>>>>>>> 53b5732e839980b009c1f9e78e186ed0a00f9e12
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
